@@ -32,5 +32,5 @@ jobs:
           password: ${{ secrets.VPS_PASSWORD }}
           script: |
             docker pull miomnz/equiloot:latest
-            cd sandbox
+            cd equiloot
             docker-compose up -d --build
