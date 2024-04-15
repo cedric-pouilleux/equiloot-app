@@ -1,12 +1,6 @@
 <template>
   <div class="center">
     <h1>equiloot</h1>
-    <pre>
-      {{status}}
-      {{data}}
-      {{pending}}
-      {{error}}
-    </pre>
   </div>
 </template>
 
