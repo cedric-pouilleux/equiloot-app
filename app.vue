@@ -1,7 +1,5 @@
 <template>
-  <div class="center">
-    <h1>equiloot</h1>
-  </div>
+  <NuxtPage />
 </template>
 
 <style lang="scss">
@@ -12,7 +10,7 @@ body {
 }
 </style>
 
-<style scoped lang="scss">
+<style lang="scss">
 .center {
   display: flex;
   justify-content: center;
