@@ -1,6 +1,4 @@
-ARG NODE_VERSION=20.12.2
-
-FROM node:${NODE_VERSION}-slim as base
+FROM node:lts-bullseye-slim as base
 
 ARG PORT=3000
 
@@ -21,8 +19,6 @@ RUN npm prune
 
 # Run
 FROM base
-
-ENV PORT=$PORT
 
 COPY --from=build /src/.output /src/.output
 # Optional, only needed if you rely on unbundled dependencies

@@ -1,0 +1,13 @@
+{
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "files.autoSave": "onFocusChange",
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}

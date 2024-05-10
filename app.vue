@@ -3,14 +3,14 @@
 </template>
 
 <style lang="scss">
-html,
-body {
-  margin: 0;
-  padding: 0;
+html, 
+body { 
+  margin: 0; 
+  padding: 0; 
 }
 </style>
 
-<style lang="scss">
+<style lang="scss">    
 .center {
   display: flex;
   justify-content: center;
